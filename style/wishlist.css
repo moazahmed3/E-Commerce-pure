@@ -1,0 +1,40 @@
+body {
+  background-color: #f8f9fa;
+}
+.product-card {
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+.badge {
+  position: relative;
+  top: -10px;
+  left: 0px;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.product-img {
+  height: 250px;
+  object-fit: contain;
+  padding: 15px;
+}
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #28a745;
+}
+.empty-wishlist {
+  text-align: center;
+  padding: 50px;
+}
+.empty-wishlist i {
+  font-size: 5rem;
+  color: #dc3545;
+}
+.remove-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}

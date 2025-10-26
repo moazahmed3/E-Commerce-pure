@@ -1,0 +1,34 @@
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.register-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  max-width: 450px;
+  width: 100%;
+}
+.register-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.register-header i {
+  font-size: 3rem;
+  color: #667eea;
+}
+.btn-register {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+.btn-register:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
